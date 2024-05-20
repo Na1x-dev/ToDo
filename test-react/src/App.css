@@ -87,6 +87,7 @@ body {
 .btn-secondary {
     margin: 0 50px;
     margin-top: 20px;
+    background-color: ;
 }
 
 .nothing-todo {
@@ -97,12 +98,4 @@ body {
     height: 2px;
     width: 100%;
     background-color: azure;
-}
-
-.show-elem {
-    display: flex;
-}
-
-.hide-elem {
-    display: none;
 }
