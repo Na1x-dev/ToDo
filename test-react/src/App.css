@@ -1,0 +1,108 @@
+body {
+    /*background: cadetblue;*/
+    margin: 0 25%;
+    background: lightblue;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    color: #666;
+}
+
+.font {
+    color: #555;
+    font-family: "Ubuntu";
+}
+
+.strong {
+    font-size: 20px;
+}
+
+.list-todo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.list-elem {
+    display: flex;
+    font-size: 20px;
+
+}
+
+.list-elem-descr {
+    font-size: 15px;
+    padding-bottom: 0;
+}
+
+.elem-block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: azure;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.create-todo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: azure;
+    gap: 5px
+}
+
+.label {
+    margin: 0 30px;
+}
+
+
+.input {
+    background: #fff;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin: 0 50px;
+}
+
+.btn-secondary {
+    margin: 0 50px;
+    margin-top: 20px;
+}
+
+.nothing-todo {
+    text-align: center;
+}
+
+.h-line {
+    height: 2px;
+    width: 100%;
+    background-color: azure;
+}
+
+.show-elem {
+    display: flex;
+}
+
+.hide-elem {
+    display: none;
+}
