@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    gap: 20px;
     margin-bottom: 20px;
 }
 
@@ -20,6 +19,7 @@ body {
 .font {
     color: #555;
     font-family: "Ubuntu";
+    overflow: hidden;
 }
 
 .strong {
@@ -35,12 +35,14 @@ body {
 .list-elem {
     display: flex;
     font-size: 20px;
-
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .list-elem-descr {
     font-size: 15px;
     padding-bottom: 0;
+    overflow: hidden;
 }
 
 .elem-block {
@@ -50,6 +52,7 @@ body {
     border-radius: 10px;
     background-color: azure;
     width: 100%;
+    overflow: hidden;
 }
 
 .buttons {
@@ -87,7 +90,6 @@ body {
 .btn-secondary {
     margin: 0 50px;
     margin-top: 20px;
-    background-color: ;
 }
 
 .nothing-todo {
@@ -98,4 +100,30 @@ body {
     height: 2px;
     width: 100%;
     background-color: azure;
+}
+
+
+.item-enter {
+    height: 0;
+    margin-top: 0;
+}
+
+.item-enter-active {
+    margin-top: 20px;
+    height: 160px;
+    transition: 500ms;
+}
+
+.item-exit {
+    margin-top: 20px;
+    height: 160px;
+}
+
+.item-exit-active {
+    height: 0;
+    margin-top: 0;
+    transition:  500ms;
+}
+.h-line{
+    margin-top: 20px;
 }

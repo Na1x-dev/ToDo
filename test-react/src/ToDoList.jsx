@@ -1,5 +1,6 @@
 import React from "react";
 import ToDo from "./ToDo";
+import {TransitionGroup, CSSTransition} from 'react-transition-group'
 
 const ToDoList = ({todos, removeToDo, editDone}) => {
     if (!todos.length) {
@@ -7,9 +8,26 @@ const ToDoList = ({todos, removeToDo, editDone}) => {
     }
     return (
         <div className="list-todo done">
-            {todos.filter(todoo => !todoo.done).map(todoo => <ToDo todoo={todoo} key={todoo.id} removeToDo={removeToDo} editDone={editDone}/>)}
+            <TransitionGroup>
+                {todos.filter(todoo => !todoo.done).map(todoo => (
+                    <CSSTransition key={todoo.id} timeout={500} classNames="item">
+                        <ToDo todoo={todoo} key={todoo.id}
+                              removeToDo={removeToDo} editDone={editDone}/>
+                    </CSSTransition>
+                ))}
+            </TransitionGroup>
             <div className="h-line"></div>
-            {todos.filter(todoo => todoo.done).map(todoo => <ToDo todoo={todoo} key={todoo.id} removeToDo={removeToDo} editDone={editDone}/>)}
+
+            <TransitionGroup>
+
+                        {todos.filter(todoo => todoo.done).map(todoo => (
+                                <CSSTransition key={todoo.id} timeout={500} classNames="item">
+                            <ToDo todoo={todoo} key={todoo.id}
+                                                                              removeToDo={removeToDo}
+                                                                              editDone={editDone}/>
+                    </CSSTransition>
+                ))}
+            </TransitionGroup>
         </div>
 
     )

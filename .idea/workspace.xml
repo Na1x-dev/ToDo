@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="521780db-c5be-4b54-a3d5-4403467add4f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-react/src/AddToDo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/src/AddToDo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-react/src/ToDo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/src/ToDo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-react/src/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/src/ToDoList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-react/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoback/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoback/todo/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +92,7 @@
       <workItem from="1715686452294" duration="3000" />
       <workItem from="1715751477691" duration="24263000" />
       <workItem from="1715937607845" duration="376000" />
-      <workItem from="1715938869507" duration="21098000" />
+      <workItem from="1715938869507" duration="33077000" />
     </task>
     <servers />
   </component>

@@ -12,3 +12,4 @@ class TodoViewSet(viewsets.ModelViewSet):
     permission_classes = [
         permissions.AllowAny
     ]
+    ordering = ['id']

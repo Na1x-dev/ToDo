@@ -12,10 +12,13 @@ root.render(
 document.addEventListener('keypress', function (event) {
     const button = document.querySelector('.btn-secondary');
     const titleInput = document.querySelector('.title-input')
+
+
     if (event.key === 'Enter') {
         if (button) {
             button.click();
             titleInput.focus();
+
         }
     }
 })

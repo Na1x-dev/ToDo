@@ -9,7 +9,6 @@ const API_URL = "http://127.0.0.1:8000/api/todo/"
 
 function App() {
     const [todos, setTodos] = useState([])
-
     const getToDos = async () => {
         const response = await axios.get(API_URL)
         const todos = response.data
@@ -22,10 +21,14 @@ function App() {
     }, [])
 
     const createToDo = (newTodo) => {
-        setTodos([...todos, newTodo])
+
+
         axios.post(API_URL, newTodo)
             .then(response => {
-                return getToDos();
+                newTodo = response.data;
+
+                setTodos([newTodo, ...todos])
+
             })
             .catch(error => {
                 console.log(error);
